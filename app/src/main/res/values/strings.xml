@@ -9,4 +9,19 @@
     <string name="swap_button">Swap</string>
     <string name="history_button">History</string>
 
+    <string-array name="currencies">
+        <item>USD</item>
+        <item>JPY</item>
+        <item>GPB</item>
+        <item>CHF</item>
+        <item>DKK</item>
+        <item>EUR</item>
+        <item>AUD</item>
+        <item>CNY</item>
+        <item>CAD</item>
+        <item>INR</item>
+        <item>BRL</item>
+        <item>RUB</item>
+        <item>MXN</item>
+    </string-array>
 </resources>
