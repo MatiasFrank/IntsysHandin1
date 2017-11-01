@@ -4,49 +4,43 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class TestAcitity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Log.i("onCreate", "MAIN");
+        Log.i("onCreate", "TEST");
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_test_acitity);
     }
 
     @Override
     protected void onStart() {
-        Log.i("onStart", "MAIN");
+        Log.i("onStart", "TEST");
         super.onStart();
     }
 
     @Override
     protected void onResume() {
-        Log.i("onResume", "MAIN");
+        Log.i("onResume", "TEST");
         super.onResume();
     }
 
     @Override
     protected void onPause() {
-        Log.i("onPause", "MAIN");
+        Log.i("onPause", "TEST");
         super.onPause();
     }
 
     @Override
     protected void onStop() {
-        Log.i("onStop", "MAIN");
+        Log.i("onStop", "TEST");
         super.onStop();
     }
 
     @Override
     protected void onDestroy() {
-        Log.i("onDestroy", "MAIN");
+        Log.i("onDestroy", "TEST");
         super.onDestroy();
-    }
-
-    public void changeActivity(View view) {
-        Intent intent = new Intent(this, TestAcitity.class);
-        startActivity(intent);
     }
 }
