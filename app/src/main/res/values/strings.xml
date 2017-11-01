@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">IntsysHandin1</string>
+
+    <!-- Fields -->
+    <string name="original_currency_hint">Eg. 50</string>
+    <string name="target_currency_hint">237,91</string>
+
+    <!-- Buttons -->
+    <string name="swap_button">Swap</string>
+    <string name="history_button">History</string>
+
 </resources>
